@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Article = ({ title, author, description }) => (
     <>
         <h2>{title}</h2>
-        <p>By: {author}</p>
-        <p>Description:{description}</p>
+        <p>{author}</p>
+        <p>{description}</p>
     </>
 );
 
