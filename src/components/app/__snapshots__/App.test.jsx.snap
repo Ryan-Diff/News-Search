@@ -2,27 +2,24 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
+  <label
+    for="search"
+  >
+    Search
+  </label>
+  <input
+    id="search"
+    name="search"
+    type="search"
+    value=""
+  />
+  <button
+    data-testid="button"
+  >
+    Search
+  </button>
   <ul
     data-testid="articles"
-  >
-    <li>
-      <h2>
-        Stocks Chop On Stimulus Slop, Bitcoin Jumps, Dollar Dumps
-      </h2>
-      <p>
-        Tyler Durden
-      </p>
-      <p>
-        Stocks Chop On Stimulus Slop, Bitcoin Jumps, Dollar Dumps
-
- Tyler Durden
- 
-Wed, 10/21/2020 - 16:00
-
- The algos were busy today... buying on every mention of the words "hope" or "optimism" and selling at technical resistance as once again nothing happened...
-…
-      </p>
-    </li>
-  </ul>
+  />
 </DocumentFragment>
 `;
